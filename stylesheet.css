@@ -1,1 +1,22 @@
 
+body {
+    font-size: 24 px
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper{
+    background: whitesmoke;
+    margin: 24px;
+    padding: 24px;
+}
+
+.salmon{
+    color: salmon;
+}
+
+#adjective{
+    font-family: 'Comic Sans MS';
+}
