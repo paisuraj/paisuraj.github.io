@@ -1,6 +1,6 @@
 //bound to button onclick
 function changeWord(){
-    let userInput = document.getElementById('adjective-input').ariaValueMax
+    let userInput = document.getElementById('adjective-input').value
 
     //change the inner HTML of adjective element
     document.getElementById('adjective').innerHTML = userInput
@@ -12,7 +12,7 @@ function toggleWordColor(){
     let hasSalmon = adjective.className === 'salmon'
 
     if (hasSalmon){
-        adjective.className = ''
+        adjective.className = 'blue'
     }
     else{
         adjective.className = 'salmon'
